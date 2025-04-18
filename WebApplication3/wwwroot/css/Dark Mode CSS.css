@@ -1,0 +1,12 @@
+﻿/* === DARK MODE === */
+body.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+.navbar.dark-mode,
+.footer.dark-mode,
+.card.dark-mode {
+    background-color: #1e1e1e !important;
+    color: #fff;
+}
