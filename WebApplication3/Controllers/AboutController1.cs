@@ -9,12 +9,13 @@ namespace WebApplication3.Controllers
         {
             var aboutModel = new About
             {
-                Name = "John Doe",
-                Description = "I'm a passionate developer focused on building clean and user-friendly applications.",
-                ImageUrl = "/images/profile.jpg", // Make sure this image exists
-                LinkedInUrl = "https://www.linkedin.com/in/johndoe",
-                GitHubUrl = "https://github.com/johndoe",
-                ResumeUrl = "/files/JohnDoeResume.pdf"
+              
+                    Name = "Mohammed Ali",
+                    Description = "Experienced developer with a passion for building clean, scalable solutions.",
+                    ImageUrl = "/images/profile.jpg",
+                    LinkedInUrl = "https://linkedin.com/in/mohammedali",
+                    GitHubUrl = "https://github.com/mohammedaliomara",
+                    ResumeUrl = "/files/Resume.pdf"
             };
 
             return View(aboutModel);
